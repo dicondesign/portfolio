@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects – Rhoi Dicon</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section id="projects-gallery">
+    <figure class="project-thumb" style="background-image: url('Assets/Branding.jpg.jpg');" data-project="1">
+      <figcaption class="project-title">Pawpal Branding</figcaption>
+    </figure>
+    <figure class="project-thumb" style="background-image: url('Assets/Packaging.jpg.jpg');" data-project="2">
+      <figcaption class="project-title">Box Design</figcaption>
+    </figure>
+    <figure class="project-thumb" style="background-image: url('Assets/merch.jpg.jpg');" data-project="3">
+      <figcaption class="project-title">Merch Design</figcaption>
+    </figure>
+    <figure class="project-thumb" style="background-image: url('Assets/Menu.jpg.jpg');" data-project="4">
+      <figcaption class="project-title">Menu Design</figcaption>
+    </figure>
+    <figure class="project-thumb" style="background-image: url('Assets/ux.jpg.jpg');" data-project="5">
+      <figcaption class="project-title">UI/UX Design</figcaption>
+    </figure>
+    <figure class="project-thumb" style="background-image: url('Assets/Posters.jpg.jpg');" data-project="6">
+      <figcaption class="project-title">Poster Design</figcaption>
+    </figure>
+  </section>
+
+  <!-- Modal -->
+  <section class="project-modal" id="modal">
+    <article class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <img id="modal-img" src="" alt="Project Sample">
+      <p id="modal-desc"></p>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Rhoi Dicon.  All rights reserved.</p>
+  </footer>
+
+  <script src="./JS/script.js"></script>
+</body>
+</html>
